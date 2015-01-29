@@ -1,0 +1,17 @@
+/*! Blog Demo */
+
+.container {
+    margin-left: 5em;
+    margin-right: 5em;
+}
+
+h1 {
+    margin-bottom: 20px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #999;
+}
+
+.byline {
+    color: #999;
+    font-style: italic;
+}

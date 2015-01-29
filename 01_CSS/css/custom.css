@@ -1,0 +1,42 @@
+/* custom css */
+
+
+h1 {
+	text-align: center;	
+}
+
+a:link {
+	color: #000000;
+	text-decoration: none;
+}
+a:visited {
+	color: #000000;
+	text-decoration: none;
+}
+a:hover {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+li { 
+	width: 30%;
+	float: left;
+	display: inline;
+	list-style-type: none;
+	margin-right: 1%;
+	padding: 10px;
+}
+
+.one {
+	background: #FF9900;
+	 
+}
+
+.two {
+	background: #FFFF00
+;
+}
+
+.three{
+	background: #6699FF;
+}
