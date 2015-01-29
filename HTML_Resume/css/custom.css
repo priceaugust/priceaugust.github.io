@@ -10,6 +10,14 @@ body {
     margin-bottom: 0%;
     text-align: center;
 }
+.information {
+    display:inline;
+}
+
+.contact {
+        float: right;
+}
+
 .address {
     float: left;
 }
@@ -29,11 +37,3 @@ img {
     margin-left: 10%;
 }
 
-.information {
-    display:inline;
-
-}
-
-.contact {
-        float: right;
-}
