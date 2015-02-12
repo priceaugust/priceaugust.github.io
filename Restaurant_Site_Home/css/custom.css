@@ -10,18 +10,18 @@ body {
 	background-color: #FFFFFF; opacity: 0.90; filter: alpha(opacity=50);
 }
 
-.facebook {
-	padding-top: -30px;
-}
-
 .strip {
-	margin-top:5%;
 	background-color: white; opacity: 0.75; filter: alpha(opacity=50)
 }
 
 .menu {
-	margin-top:5%;
+
 	background-color: white; opacity: 0.75; filter: alpha(opacity=50);
+}
+
+.blackbar {
+	width: 240px;
+	height: 10px;
 }
 
 h1 {
