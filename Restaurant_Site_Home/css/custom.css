@@ -15,6 +15,31 @@ body {
 }
 
 .strip {
-	
-	background-color: #FFFFFF; opacity: 0.90; filter: alpha(opacity=50);
+	margin-top:5%;
+	background-color: white; opacity: 0.75; filter: alpha(opacity=50)
+}
+
+.menu {
+	margin-top:5%;
+	background-color: white; opacity: 0.75; filter: alpha(opacity=50);
+}
+
+h1 {
+	color: black;
+}
+
+h2 {
+	color: black;
+}
+
+h3 {
+	color: black;
+}
+
+p {
+	color: black;
+}
+
+ul{
+	list-style-type: none;
 }
