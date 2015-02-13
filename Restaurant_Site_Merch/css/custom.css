@@ -1,0 +1,75 @@
+/*custom css*/
+
+
+body {
+	-color: black;
+	background-size: 100%;
+	padding-top:65px;
+
+	background: url("http://offtheeatenpathstl.com/wp-content/uploads/2010/04/img_0894.jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.navbar {
+	background-color: #FFFFFF; opacity: 0.90; filter: alpha(opacity=50);
+}
+
+.fb{
+	height: 40px;
+	width: 40px;
+	padding-left: -15px;
+	padding-bottom: -15px;
+	margin-bottom: -11px;
+	margin-top: -11px
+}
+
+.strip {
+	background-color: white; opacity: 0.75; filter: alpha(opacity=50);
+	margin-right: 5%;
+	border-radius: 10px;
+	border: 1px groove black;
+	margin-bottom:30px;
+}
+
+.menu {
+	background-color: white; opacity: 0.75; filter: alpha(opacity=50);
+	border-radius: 10px;
+	border: 1px groove black;
+}
+
+.blackbar {
+	width: 95%;
+	height: 10px;
+}
+
+.source {
+	float: right;
+}
+
+
+h1 {
+	color: black;
+}
+
+h2 {
+	color: black;
+}
+
+h3 {
+	color: black;
+}
+
+p {
+	color: black;
+}
+
+ul{
+	list-style-type: none;
+}
+
+html { 
+  
+}
