@@ -41,9 +41,9 @@
 					<ul class="nav navbar-nav navbar-right">
 						<li><a class="navbar-logo" href="https://www.facebook.com/pages/Deweys-Pizza/116257831729237"><img class="navlogo, fb" src="http://upload.wikimedia.org/wikipedia/commons/c/cd/Facebook_logo_(square).png" alt="Facebook"></a></li>
 					</ul>
-				</div><!-- /.navbar-collapse -->
-			</div><!-- /.container-fluid -->
-		</nav>
+					</div><!-- /.navbar-collapse -->
+					</div><!-- /.container-fluid -->
+				</nav>
 				<div class="container">
 					<div class="row">
 						<div class="col-sm-3 col-md-3 col-lg-4, strip">
@@ -62,14 +62,126 @@
 							<div><br></div>
 						</div>
 						<div class="col-sm-6 col-md-5 col-lg-5, menu">
-							<h2> Dewey's Pizza </h2>
+							<h2> Dewey's Pizza<!-- Button trigger modal -->
+							<button type="button"  class="btn btn-default, floater" data-toggle="modal" data-target="#myModal">
+							Order Pickup!
+							</button></h2>
 							<div>
-							<img src="http://www.deweyspizza.com/img/home/home-hendrix.png" alt="Deweys" align="center">
-							<p><br></p>	
-						</div>
+								<img src="http://www.deweyspizza.com/img/home/home-hendrix.png" alt="Deweys" align="center">
+								<p><br></p>
+							</div>
 						</div>
 					</div>
-					
+					<!-- Modal -->
+					<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+						<div class="modal-dialog">
+							<div class="modal-content">
+								<div class="modal-header">
+									<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+									<h4 class="modal-title" id="myModalLabel">Your Order</h4>
+								</div>
+								<div class="modal-body">
+									<form>
+										<div class="form-group">
+											<label for="recipient-name" class="control-label">Your Name:</label>
+											<input type="text" class="form-control" id="recipient-name">
+										</div>
+										<div class="form-group">
+											<label for="recipient-name" class="control-label">Your Number:</label>
+											<input type="text" class="form-control" id="recipient-name">
+										</div>
+										<div class="form-group">
+											<label for="recipient-name" class="control-label">Your Email:</label>
+											<input type="text" class="form-control" id="recipient-name">
+										</div>
+										<div class="form group">
+											<h4> Select a Pizza </h4>
+											<div class="btn-group" data-toggle="buttons">
+												<label class="btn btn-primary">
+													<input type="checkbox" autocomplete="off"> Green Lantern
+												</label>
+												<label class="btn btn-primary">
+													<input type="checkbox" autocomplete="off"> Wild Mushroom
+												</label>
+												<label class="btn btn-primary">
+													<input type="checkbox" autocomplete="off"> Meatball
+												</label>
+												<label class="btn btn-primary">
+													<input type="checkbox" autocomplete="off"> Southwest BBQ Chicken
+												</label>
+											</div>
+										</div>
+										<div class="form group">
+											<h4> Build Your Own Pizza </h4>
+											<h5> Choose a Sauce </h5>
+											<div class="btn-group" data-toggle="buttons">
+												<label class="btn btn-primary">
+													<input type="checkbox" autocomplete="off"> Red Sauce
+												</label>
+												<label class="btn btn-primary">
+													<input type="checkbox" autocomplete="off"> White Sauce
+												</label>
+											</div>
+											<h5> Choose Your Toppings </h5>
+											<div class="btn-group" data-toggle="buttons">
+												<label class="btn btn-primary">
+													<input type="checkbox" autocomplete="off"> Green Peppers
+												</label>
+												<label class="btn btn-primary">
+													<input type="checkbox" autocomplete="off"> Banana Peppers
+												</label>
+												<label class="btn btn-primary">
+													<input type="checkbox" autocomplete="off"> Extra Cheese
+												</label>
+												<label class="btn btn-primary">
+													<input type="checkbox" autocomplete="off"> Onions
+												</label>
+												<label class="btn btn-primary">
+													<input type="checkbox" autocomplete="off"> Tomatoes
+												</label>
+											</div>
+											<div><br></br></div>
+											<div class="btn-group" data-toggle="buttons">
+												<label class="btn btn-primary">
+													<input type="checkbox" autocomplete="off"> Jalepeno Peppers
+												</label>
+												<label class="btn btn-primary">
+													<input type="checkbox" autocomplete="off"> Smoked Cheddar
+												</label>
+												<label class="btn btn-primary">
+													<input type="checkbox" autocomplete="off"> Mushrooms
+												</label>
+												<label class="btn btn-primary">
+													<input type="checkbox" autocomplete="off"> Pepperoni
+												</label>
+											</div>
+											<div><br></br></div>
+											<div class="btn-group" data-toggle="buttons">
+												<label class="btn btn-primary">
+													<input type="checkbox" autocomplete="off"> Parmesan Cheese
+												</label>
+												<label class="btn btn-primary">
+													<input type="checkbox" autocomplete="off"> Red Onions
+												</label>
+												<label class="btn btn-primary">
+													<input type="checkbox" autocomplete="off"> Canadian Bacon
+												</label>
+												<label class="btn btn-primary">
+													<input type="checkbox" autocomplete="off"> Capers
+												</label>
+												<label class="btn btn-primary">
+													<input type="checkbox" autocomplete="off"> Sausage
+												</label>
+											</div>
+										</div>
+									</form>
+								</div>
+								<div class="modal-footer">
+									<button type="button" class="btn btn-default" data-dismiss="modal">Place Order</button>
+								</div>
+							</div>
+						</div>
+					</div>
 					<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 					<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 					<!-- Include all compiled plugins (below), or include individual files as needed -->
