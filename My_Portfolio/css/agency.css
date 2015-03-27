@@ -777,7 +777,7 @@ ul.social-buttons li a:active {
     min-height: 100%;
     border: 0;
     border-radius: 0;
-    text-align: center;
+    /*text-align: center;*/
     background-clip: border-box;
     -webkit-box-shadow: none;
     box-shadow: none;
@@ -869,3 +869,34 @@ img::-moz-selection {
 body {
     webkit-tap-highlight-color: #fed136;
 }
+
+
+.contenttable{
+    border-radius: 5px;
+    padding: 18px;
+    padding-left: 40px;
+    padding-right: 30px;
+    background: #f3f3f3;
+    border: 0;
+    width: 100%;
+}
+
+table.contenttable {
+    border-radius: 5px;
+    padding: 18px;
+    padding-left: 40px;
+    padding-right: 30px;
+    background: #f3f3f3;
+    border: 0;
+    width: 100%;
+    border-spacing: 100px 10px;
+}
+
+.modal-head {
+    text-align: center;
+}
+
+.button-centered {
+    text-align: center;
+}
+
