@@ -1,0 +1,139 @@
+/*!
+ * Start Bootstrap - Blog Post HTML Template (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+.navbar {
+	background-color: #555555;
+}
+
+.sidebar {
+	display:block;
+	width: 100%;
+}
+
+.sidebar:hover {
+	background-color: black;
+}
+
+.redbar {
+	background:#a51417;
+}
+
+.head1 {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.head2 {
+	padding-top: 30px;
+	padding-bottom: 40px;
+	background: url(https://sites.wustl.edu/investmentmanagement/wp-content/themes/wutheme_hoyt/images/header-shield.svg) no-repeat left center;
+
+}
+
+.list-group-item.active {
+	background-color: white;
+	border-color: #ddd;	
+	color: #a51417;
+}
+
+.list-group-item.active:hover {
+	background-color: white;
+	border-color: #ddd;
+	color: #a51417;
+}
+
+.imc {
+	color: black;
+ 	text-decoration: none;
+}
+
+.list-group-item {
+    background-color: white; 
+}
+
+.list-group-item-heading {
+	background-color: black;
+}
+
+.footie {
+	margin-top: 50px;
+}
+.contact {
+	background-color: #555555;
+}
+
+.contactcolor {
+	color: white;
+}
+
+.copyright {
+	background-color:#a51417;
+}
+
+.navbar-default {
+  background-color: #555555;
+  border-color: #ffffff;
+}
+.navbar-default .navbar-brand {
+  color: #ffffff;
+}
+.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
+  color: #a51417;
+}
+.navbar-default .navbar-text {
+  color: #ffffff;
+}
+.navbar-default .navbar-nav > li > a {
+  color: #ffffff;
+}
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+  color: #a51417;
+  background-color: white;	
+  border-top: #a51417;
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+  color: #a51417;
+  background-color: #ffffff;
+}
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
+  color: #a51417;
+  background-color: #ffffff;
+}
+.navbar-default .navbar-toggle {
+  border-color: #ffffff;
+}
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+  background-color: #ffffff;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #ffffff;
+}
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+  border-color: #ffffff;
+}
+.navbar-default .navbar-link {
+  color: #ffffff;
+}
+.navbar-default .navbar-link:hover {
+  color: #a51417;
+}
+
+@media (max-width: 767px) {
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    color: #ffffff;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #a51417;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #a51417;
+    background-color: #ffffff;
+  }
+}
+
+
+
