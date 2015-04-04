@@ -4,6 +4,13 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
+a {
+    color: #a51417;
+}
+a:hover {
+    color: #a51417;
+}
+
 .navbar {
 	background-color: #555555;
 }
