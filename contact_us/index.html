@@ -79,57 +79,90 @@
         <!-- Content Column -->
         <div class="col-lg-8">
             <!-- Post Content -->
-            <p>INSERT CONTACT FORM HERE</p>
-        </div>
-        <!-- Sidebar Links -->
-        <div class="col-md-4">
-            <div class="list-group">
-                <a href="http://priceaugust.github.io/contact_us/" class="list-group-item active">
-                    &#x25b6; Contact Us
-                </a>
-                <a href="http://priceaugust.github.io/location/" class="list-group-item">Location</a>
-            </div>
-        </div>
-    </div>
-</div>
-<!-- Footer -->
-<footer>
-    <div class="footie">
-        <div class="contact">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-12">
-                        <br>
-                        <h4 class="contactcolor">Contact Information</h4>
-                        <p class="contactcolor"><b> Washington University
-                            <br>Investment Management Company </b>
-                            <br>11 N. Jackson Avenue
-                            <br>Suite 1000, Campus Box 1407
-                        <br>St. Louis, MO 63105</p>
-                        <br>
+                    <form role="form" action="" method="post" >
+                        <div class="col-lg-6">
+                            <div class="form-group">
+                                <label for="InputName">Your Name</label>
+                                <div class="input-group">
+                                    <input type="text" class="form-control" name="InputName" id="InputName" placeholder="Enter Name" required>
+                                    <span class="input-group-addon"></span></div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="InputEmail">Your Email</label>
+                                    <div class="input-group">
+                                        <input type="email" class="form-control" id="InputEmail" name="InputEmail" placeholder="Enter Email" required  >
+                                        <span class="input-group-addon"></span></div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="InputMessage">Message</label>
+                                        <div class="input-group"
+                                            >
+                                            <textarea name="InputMessage" id="InputMessage" class="form-control" rows="5" required></textarea>
+                                            <span class="input-group-addon"></span></div>
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="InputReal">What is 4+3? (Simple Spam Checker)</label>
+                                            <div class="input-group">
+                                                <input type="text" class="form-control" name="InputReal" id="InputReal" required>
+                                                <span class="input-group-addon"></span></div>
+                                            </div>
+                                            <input type="submit" name="submit" id="submit" value="Submit" class="btn btn-info pull-right">
+                                        </div>
+                                    </form>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Sidebar Links -->
+                    <div class="col-md-4">
+                        <div class="list-group">
+                            <a href="http://priceaugust.github.io/contact_us/" class="list-group-item active">
+                                &#x25b6; Contact Us
+                            </a>
+                            <a href="http://priceaugust.github.io/location/" class="list-group-item">Location</a>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </div>
-    <!-- /Footer Two -->
-</footer>
-<footer>
-    <div class="copyright">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <br>
-                    <p class="contactcolor">&copy; 2015 Washington Univeristy in St. Louis</p>
+            <!-- Footer -->
+            <footer>
+                <div class="footie">
+                    <div class="contact">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <br>
+                                    <h4 class="contactcolor">Contact Information</h4>
+                                    <p class="contactcolor"><b> Washington University
+                                        <br>Investment Management Company </b>
+                                        <br>11 N. Jackson Avenue
+                                        <br>Suite 1000, Campus Box 1407
+                                    <br>St. Louis, MO 63105</p>
+                                    <br>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-            </div>
-        </div>
-    </div>
-</footer>
-<!-- /.container -->
-<!-- jQuery -->
-<script src="js/jquery.js"></script>
-<!-- Bootstrap Core JavaScript -->
-<script src="js/bootstrap.min.js"></script>
-</body>
-</html>
+                <!-- /Footer Two -->
+            </footer>
+            <footer>
+                <div class="copyright">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <br>
+                                <p class="contactcolor">&copy; 2015 Washington Univeristy in St. Louis</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+            <!-- /.container -->
+            <!-- jQuery -->
+            <script src="js/jquery.js"></script>
+            <!-- Bootstrap Core JavaScript -->
+            <script src="js/bootstrap.min.js"></script>
+        </body>
+    </html>
