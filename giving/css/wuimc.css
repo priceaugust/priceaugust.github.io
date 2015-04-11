@@ -146,5 +146,13 @@ a:hover {
   }
 }
 
+.donate {
+  background-color: #016f54;
+  color: #a51417;
+}
+
+.donate:hover{
+  color: #a51417;
+}
 
 
